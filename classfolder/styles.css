@@ -1,0 +1,69 @@
+
+body {
+
+	margin-top: 200px;
+
+	margin-bottom: 350px;
+
+	text-align: center;
+
+	background : goldenrod;
+
+	background: linear-gradient(45deg, rgba(215, 254, 92, 0.9), rgba(215, 54, 92, 0.5), rgba(215, 54, 92, 0.9));
+
+	font-size  : 36;
+
+	color:  white;
+
+	font-family: sans-serif;
+}
+
+button{
+
+	border-color: transparent;
+}
+
+input{
+
+	border-color: transparent;
+}
+
+p{
+ 
+ font-family: "Times New Roman", Times, serif;
+
+
+}
+
+h1{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 40px;
+	animation: smallupdown 3s infinite;
+	margin-bottom: 100px;
+}
+
+
+h3{
+
+	font-family: "Times New Roman", Times, serif;
+
+}
+
+
+#sun{
+	animation: updown 1s infinite;
+}
+
+
+@keyframes smallupdown {
+  0% {
+    transform: translateY(-10%);
+  }
+
+  50% {
+    transform: translateY(10%);
+  }
+
+  100% {
+    transform: translateY(-10%);
+  }
